@@ -1,0 +1,123 @@
+{
+  "_from": "bootstrap-table@^1.11.0",
+  "_id": "bootstrap-table@1.21.2",
+  "_inBundle": false,
+  "_integrity": "sha512-VVXiVI19PwR0Taq0N9jOaNCBnxIKsfnlcdaK8/jJBmK23cqor9NhtqH8MJ/UysSEt1sFv+p8yi1DZWHadtVdoQ==",
+  "_location": "/bootstrap-table",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "bootstrap-table@^1.11.0",
+    "name": "bootstrap-table",
+    "escapedName": "bootstrap-table",
+    "rawSpec": "^1.11.0",
+    "saveSpec": null,
+    "fetchSpec": "^1.11.0"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bootstrap-table/-/bootstrap-table-1.21.2.tgz",
+  "_shasum": "35472abd687840068d1c55b8d656117b6c6170e8",
+  "_spec": "bootstrap-table@^1.11.0",
+  "_where": "C:\\Users\\sheld\\Downloads\\pangongadmin-11\\pangongadmin-11\\Pangong_v1.1\\html",
+  "author": {
+    "name": "wenzhixin",
+    "email": "wenzhixin2010@gmail.com",
+    "url": "http://wenzhixin.net.cn/"
+  },
+  "bugs": {
+    "url": "https://github.com/wenzhixin/bootstrap-table/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "An extended table to integration with some of the most widely used CSS frameworks. (Supports Bootstrap, Semantic UI, Bulma, Material Design, Foundation)",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^23.0.0",
+    "@rollup/plugin-inject": "^5.0.0",
+    "@rollup/plugin-multi-entry": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "chalk": "^4.0.0",
+    "clean-css-cli": "^5.6.0",
+    "core-js": "^3.22.5",
+    "cross-env": "^7.0.3",
+    "cypress": "^9.6.1",
+    "eslint": "^8.15.0",
+    "esm": "^3.2.25",
+    "foreach-cli": "^1.8.1",
+    "glob": "^8.0.2",
+    "headr": "^0.0.4",
+    "node-sass": "^8.0.0",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "rollup": "^2.72.1",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-vue": "5.1.9",
+    "stylelint": "^14.12.1",
+    "stylelint-config-standard-scss": "^6.0.0",
+    "vue-template-compiler": "^2.6.14"
+  },
+  "directories": {
+    "doc": "site"
+  },
+  "homepage": "https://bootstrap-table.com",
+  "keywords": [
+    "bootstrap",
+    "table",
+    "pagination",
+    "checkbox",
+    "radio",
+    "datatables",
+    "css",
+    "css-framework",
+    "semantic",
+    "semantic-ui",
+    "bulma",
+    "material",
+    "material-design",
+    "materialize",
+    "foundation"
+  ],
+  "license": "MIT",
+  "main": "dist/bootstrap-table.min.js",
+  "name": "bootstrap-table",
+  "peerDependencies": {
+    "jquery": "1.9.1 - 3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wenzhixin/bootstrap-table.git"
+  },
+  "sass": "src/bootstrap-table.scss",
+  "scripts": {
+    "build": "run-s lint clean *:build",
+    "clean": "rimraf dist",
+    "css:build": "run-s css:build:*",
+    "css:build:banner": "foreach -g \"dist/**/*.min.css\" -x \"headr #{path} -o #{path} --version --homepage --author --license\"",
+    "css:build:base": "node-sass --output-style expanded src -o dist",
+    "css:build:min": "foreach -g \"dist/**/*.css\" -x \"cleancss #{path} -o #{dir}/#{name}.min.css\"",
+    "css:build:src": "node-sass --output-style expanded src -o src",
+    "docs": "bundle exec jekyll build",
+    "docs:check": "run-s docs:check:*",
+    "docs:check:api": "cd tools && node check-api.js",
+    "docs:check:locale": "cd tools && node check-locale.js",
+    "docs:serve": "bundle exec jekyll serve",
+    "js:build": "run-s js:build:*",
+    "js:build:banner": "foreach -g \"dist/**/*.min.js\" -x \"headr #{path} -o #{path} --version --homepage --author --license\"",
+    "js:build:base": "rollup -c",
+    "js:build:min": "cross-env NODE_ENV=production rollup -c",
+    "lint": "run-s lint:*",
+    "lint:css": "stylelint src/**/*.scss",
+    "lint:js": "eslint src",
+    "pre-commit": "run-s lint docs:check",
+    "test": "cypress run --headless"
+  },
+  "style": "dist/bootstrap-table.min.css",
+  "types": "./index.d.ts",
+  "version": "1.21.2"
+}

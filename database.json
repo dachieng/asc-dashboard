@@ -1,0 +1,252 @@
+{
+  "portalAccess": [
+    {
+      "id": 1,
+      "title": "Active Members",
+      "total": 55,
+      "icon": "./svg/active_members.svg"
+    },
+    {
+      "id": 2,
+      "title": "Accessed the portal",
+      "total": 30,
+      "icon": "./svg/access_portal.svg"
+    },
+    {
+      "id": 3,
+      "title": "Not accessed portal",
+      "total": 25,
+      "icon": "./svg/deny_access.svg"
+    },
+    {
+      "id": 4,
+      "title": "Individuals",
+      "total": 47,
+      "icon": "./svg/member.svg"
+    },
+    {
+      "id": 5,
+      "title": "Firms",
+      "total": 2,
+      "icon": "./svg/firms.svg"
+    },
+    {
+      "id": 6,
+      "title": "Awaiting Approval",
+      "total": 22,
+      "icon": "./svg/approval.svg"
+    }
+  ],
+
+  "payments": [
+    {
+      "id": 1,
+      "title": "Total Invoices",
+      "content": "441,550.00",
+      "icon": "./svg/invoice.svg"
+    },
+    {
+      "id": 2,
+      "title": "Total Payments",
+      "content": "13,000.00",
+      "icon": "./svg/payment.svg"
+    },
+    {
+      "id": 3,
+      "title": "Total Balances",
+      "content": "441,550.00",
+      "icon": "./svg/balance.svg"
+    }
+  ],
+  "invoice": [
+    {
+      "id": 1,
+      "title": "Total Invoices",
+      "total": "8",
+      "icon": "/svg/payment.svg"
+    },
+    {
+      "id": 2,
+      "title": "Fully Paid",
+      "total": "8",
+      "icon": "/svg/payment.svg"
+    },
+    {
+      "id": 3,
+      "title": "Partially Paid",
+      "total": "15",
+      "icon": "/svg/payment.svg"
+    },
+    {
+      "id": 4,
+      "title": "Unpaid",
+      "total": "1",
+      "icon": "/svg/payment.svg"
+    }
+  ],
+
+  "membershipAcess": [
+    {
+      "label": "Full Members",
+      "quantity": 330
+    },
+    {
+      "label": "Honorary Fellow",
+      "quantity": 100
+    },
+    {
+      "label": "Students",
+      "quantity": 234
+    },
+    {
+      "label": "Graduates",
+      "quantity": 390
+    },
+    {
+      "label": "Annual Gym Membership Fee",
+      "quantity": 78
+    }
+  ],
+  "chapterMembers": [
+    {
+      "label": "CPA Auditors",
+      "quantity": 50
+    },
+    {
+      "label": "Non-CPA Auditors",
+      "quantity": 130
+    },
+    {
+      "label": "Government Auditors",
+      "quantity": 80
+    },
+    {
+      "label": "NGO Auditors",
+      "quantity": 70
+    },
+    {
+      "label": "CPA",
+      "quantity": 180
+    }
+  ],
+  "invoices": [
+    {
+      "id": 1,
+      "amount": 1200,
+      "paid": 1200
+    },
+    {
+      "id": 2,
+      "amount": 10000,
+      "paid": 6000
+    },
+    {
+      "id": 3,
+      "amount": 5000,
+      "paid": 0
+    },
+    {
+      "id": 4,
+      "amount": 7000,
+      "paid": 2000
+    },
+    {
+      "id": 5,
+      "amount": 8000,
+      "paid": 0
+    },
+    {
+      "id": 6,
+      "amount": 4000,
+      "paid": 4000
+    },
+    {
+      "id": 7,
+      "amount": 1200,
+      "paid": 1200
+    },
+    {
+      "id": 8,
+      "amount": 9045,
+      "paid": 4567
+    },
+    {
+      "id": 9,
+      "amount": 10700,
+      "paid": 0
+    },
+    {
+      "id": 10,
+      "amount": 17000,
+      "paid": 0
+    },
+    {
+      "id": 11,
+      "amount": 8400,
+      "paid": 8400
+    },
+    {
+      "id": 11,
+      "amount": 8400,
+      "paid": 8400
+    }
+  ],
+  "balances": [
+    {
+      "balance": 123.45,
+      "paybill": 178589,
+      "account": "SMS13"
+    }
+  ],
+  "tickets": [
+    {
+      "id": 1,
+      "name": "Amanda Clarke",
+      "title": "Ticket 1",
+      "status": "open",
+      "priority": "low",
+      "messasge": "This is a low ticket"
+    },
+    {
+      "id": 2,
+      "name": "Jason Banks",
+      "title": "Ticket 2",
+      "status": "open",
+      "priority": "high",
+      "messasge": "This is a high ticket"
+    },
+    {
+      "id": 3,
+      "title": "Ticket 3",
+      "name": "Bella Avatar",
+      "status": "open",
+      "priority": "severe",
+      "messasge": "I  Need to understand what the arrears are on my 2023 invoice . "
+    },
+    {
+      "id": 4,
+      "name": "Visually Camille Rose",
+      "title": "Ticket 4",
+      "status": "closed",
+      "priority": "medium",
+      "messasge": "This is a medium ticket"
+    }
+  ],
+  "memberBalances": [
+    {
+      "id": 1,
+      "balance": "150,161,846.20",
+      "title": "Total Invoices "
+    },
+    {
+      "id": 1,
+      "balance": "75,522.00",
+      "title": "Total Payments "
+    },
+    {
+      "id": 1,
+      "balance": "150,086,324.20",
+      "title": "Total Balances"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "_from": "switchery@^0.0.2",
+  "_id": "switchery@0.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-3T75YdKDzjG8IIngGXyoEklLDU5m8cmRxsany4h1nqoZGjjPULGx8515H2y2yT8jkmAzZ8/siNNak785ievrCg==",
+  "_location": "/switchery",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "range",
+    "registry": true,
+    "raw": "switchery@^0.0.2",
+    "name": "switchery",
+    "escapedName": "switchery",
+    "rawSpec": "^0.0.2",
+    "saveSpec": null,
+    "fetchSpec": "^0.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/switchery/-/switchery-0.0.2.tgz",
+  "_shasum": "8d522c4eb3258bacc6c91bec980e0e46e312d06e",
+  "_spec": "switchery@^0.0.2",
+  "_where": "C:\\Users\\sheld\\Downloads\\pangongadmin-11\\pangongadmin-11\\Pangong_v1.1\\html",
+  "author": {
+    "name": "Alexander Petkov"
+  },
+  "browserify": {
+    "transform": "cssify"
+  },
+  "bugs": {
+    "url": "https://github.com/antonamurskiy/switchery/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Anton Amurskiy",
+      "email": "antonamurskiy@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "cssify": "~0.3.0"
+  },
+  "deprecated": false,
+  "description": "Browserify version of Switchery",
+  "directories": {
+    "example": "examples"
+  },
+  "homepage": "https://github.com/antonamurskiy/switchery#readme",
+  "keywords": [
+    "switchery"
+  ],
+  "license": "MIT",
+  "main": "switchery.js",
+  "name": "switchery",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/antonamurskiy/switchery.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "0.0.2"
+}
